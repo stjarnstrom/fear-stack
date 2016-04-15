@@ -83,6 +83,7 @@ const MessageList = React.createClass({
       <div className="message-wrapper">
         <p className="message-header">
           <span className="username font-600">{sender.email}</span>
+          &nbsp;
           <span className="sent-date font-300">
             {moment(message.createdAt).format('MMM Do, hh:mm:ss')}
           </span>
